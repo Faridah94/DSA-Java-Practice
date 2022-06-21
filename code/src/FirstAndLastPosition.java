@@ -47,7 +47,7 @@ public class FirstAndLastPosition {
                 // potential answer found
                 ans = mid;
 
-                if(findStartIndex){ // if you are trying to fine start index go mid - 1
+                if(findStartIndex){ // if you are trying to find start index go mid - 1
                     end = mid -1;
                 }else { // go find end index go mid + 1
                     start = mid +1;

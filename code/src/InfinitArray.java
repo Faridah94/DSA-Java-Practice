@@ -23,7 +23,7 @@ public class InfinitArray {
         // condition for the target to lie in range
 
         if (target > arr[end]){
-            int neweStart = end + 1;
+            int newStart = end + 1;
 
             // double the size of the box using this formula
             // newEnd = previous end + size_of_the_previous_box * 2
@@ -41,6 +41,7 @@ public class InfinitArray {
             // how find middle number in array
 
             int mid = start + (end - start) / 2 ;
+
             if ( target < arr[mid]){
                 end = mid - 1 ; // search on the left side array
 
